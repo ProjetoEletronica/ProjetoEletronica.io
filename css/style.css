@@ -368,7 +368,12 @@ header{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-}#cor_texto{
+}
+#center{
+    text-align: center;
+    padding: 15px;
+  }
+#cor_texto{
     color: var(--padrão_texto);
     font-weight: 500;
     border: 1px solid var(--borda_botão);

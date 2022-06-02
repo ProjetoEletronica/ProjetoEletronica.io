@@ -128,7 +128,3 @@
       clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 100% 0, 50% 50%);
     }
 }
-#center{
-  text-align: center;
-  padding: 15px;
-}
