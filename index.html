@@ -14,13 +14,16 @@
                 <div id="cabeçalho_esquerda">
                     <img id="logoUnir" src="imagens/Logotipo Unir sem fundo_Branca300.png" alt="Logo da unir">
                 </div>
-                <div>
-                    <button class="btn" onclick="menu()">Menu</button>
-                    <a href="index.html" target="" type="external" id="cor_texto">Principal</a>
-                    <a href="temperatura.html" target="" type="external" id="cor_texto">Temperatura</a>
-                    <a href="Iluminação.html" target="" type="external" id="cor_texto">Iluminação</a>
-                    <a href="Umidade.html" target="" type="external" id="cor_texto">Umidade</a>
-                </div>
+                
+                <nav id="nav">
+                    <button id="btn"> Menu </button>
+                    <ul id="menu">
+                        <li><a href="index.html" target="" type="external" class="cor_texto">Principal</a></li>
+                        <li><a href="temperatura.html" target="" type="external" class="cor_texto">Temperatura</a></li>
+                        <li><a href="Iluminação.html" target="" type="external" class="cor_texto">Iluminação</a></li>
+                        <li><a href="Umidade.html" target="" type="external" class="cor_texto">Umidade</a></li>
+                    </ul>
+                </nav>
         </header>
         <main>
             <div id="container_principal_texto">
@@ -53,6 +56,6 @@
             <img id="logoDaee"src="imagens/Logo DAEE 72 resol_Branco.png" alt="Logo do Departamento acadêmico de engenharia elétrica">
         </footer>
         
-        <!--<script src="script.js"></script>-->
+        <script src="script/script.js"></script>
     </body>
 </html>

@@ -6,26 +6,15 @@ var resp = window.prompt("Digite a senha")
         console.log(resp);
         }
 */
-const lamp = window.document.getElementById('lamp');
-const turnOnOff = window.document.getElementById('turnOnOff');
 
-function LampOn(){
-    lamp.src= 'imagens/ligada.jpg';
-};
+/* Menu */
 
-function LampOff(){
-    lamp.src= 'imagens/desligada.jpg';
-};
+const btn = document.getElementById('btn');
 
-function LampOnOff(){
-    if (turnOnOff.textContent == 'Ligar'){
-        LampOn();
-        turnOnOff.textContent = 'Desligar';
-    }else{
-        LampOff()
-        turnOnOff.textContent = 'Ligar'
-    }
+function mostrarMenu (){
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('ativo')
+    
 }
 
-turnOnOff.addEventListener('click',LampOnOff);
-lamp.addEventListener('dblclick',Lampbreak);
+btn.addEventListener('click',mostrarMenu);
