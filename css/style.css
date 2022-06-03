@@ -384,6 +384,10 @@ header{
     margin: 10px;
     transition-duration: 1s; 
 }
+.btn{
+    display: none;
+}
+
 #cor_texto:hover{
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.24);
     background-color: var(--logo);
@@ -401,16 +405,6 @@ main{
 #coluna_principal{
     width: 42%;
 }
-/*@media screen and (-width: 1200){
-
-}
-@media screen and (-width: 800){
-
-}
-@media screen and (-width: 450){
-
-}
-*/
 #container_principal_texto{
     display: flex;
     align-items: center;
@@ -475,4 +469,77 @@ footer{
 #p_footer{
     font-size: 1.5vh;
     padding-bottom: 0px;
+}
+@media(max-width: 700px){
+    .btn{
+        display: block;
+        color: var(--padrão_texto);
+        font-weight: 500;
+        border: 1px solid var(--borda_botão);
+        background: transparent;
+        font-size: 1rem;
+        border-radius: 6px;
+        padding: 5px 10px 5px 10px;
+        margin: 10px;
+        transition-duration: 1s; 
+    }
+    #cor_texto{
+        display: none;
+    }
+    #coluna_principal{
+        width: 100%;
+    }
+    #container_principal_texto{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5vw;
+    }
+    #main_titulo{
+        color: var(--padrão_texto);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: calc(3vw + 15px);
+        padding-bottom: none;
+        border-bottom: none;
+        width: 250px;
+        padding-bottom: 5px;
+        border-bottom: 0.6px solid #FFF2E7;
+        margin: 0 auto;
+    }
+    #main_imagem{
+        width: 35vw;
+        min-width: 300px;
+        padding-bottom: 15px;
+    }
+    #main_paragrafo{
+        padding-top: 10px;
+        width: 100%;
+        text-align: justify;
+        text-indent: 25px;
+
+    }
+    #part_nomes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 49.55vh;
+    }
+    footer{
+        border-top: 0.6px solid #FFF2E7;
+        padding: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        height: 60px;
+    }
+    #logoDaee{
+        width: calc(7.5vw + 100px);
+        position: absolute;
+        right: 3%;
+    }
+    #p_footer{
+        font-size: 1.5vh;
+        padding-bottom: 0px;
+        padding-left: 15px;
+    }
 }
