@@ -1,7 +1,7 @@
 /* Colocando senha no site
 
 var resp = window.prompt("Digite a senha")
-        while (resp!='Elisa meu amor'){
+        while (resp!='000'){
         var resp = window.prompt('Senha incorreta, tente novamente');
         console.log(resp);
         }
