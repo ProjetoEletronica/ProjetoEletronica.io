@@ -417,7 +417,7 @@ main{
 #main_titulo{
     color: var(--padrão_texto);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: calc(3vw + 15px);
+    font-size: calc(2.5vw + 10px);
     padding-bottom: 5px;
     border-bottom: 0.6px solid #FFF2E7;
 }
@@ -470,7 +470,7 @@ footer{
     font-size: 1.5vh;
     padding-bottom: 0px;
 }
-@media(max-width: 700px){
+@media(max-width: 750px){
     .btn{
         display: block;
         color: var(--padrão_texto);
@@ -497,7 +497,7 @@ footer{
     #main_titulo{
         color: var(--padrão_texto);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: calc(3vw + 15px);
+        font-size: calc(31px);
         padding-bottom: none;
         border-bottom: none;
         width: 250px;
