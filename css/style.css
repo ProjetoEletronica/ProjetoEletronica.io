@@ -400,7 +400,7 @@ header{
 
 
 #logoUnir{
-    width: calc(7vw + 40px);
+    width: calc(4vw + 90px);
 }
 main{
     border-top: 0.6px solid #FFF2E7;
@@ -427,6 +427,7 @@ main{
 }
 #main_paragrafo{
     padding-top: 10px;
+    text-align: justify;
     width: 35vw;
 }
 #main_imagem{

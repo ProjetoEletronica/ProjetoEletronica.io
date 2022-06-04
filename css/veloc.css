@@ -3,29 +3,16 @@
   justify-content: center;
   padding: 20px;
 }
-.area button{
-  margin: 0 10px;
-  border-radius:3px;
-  border: 1px solid #9a28fc;
-  padding: 10px 15px;
-  color: #9a28fc;
-  background-color:transparent;
-  cursor:pointer;
-}
-.area button:hover{
-  border: 1px solid white;
-  color: white;
-}
-
 .chart{
   position: relative;
-  width:295px;
-  height:295px;
+  width:350px;
+  height:350px;
   
   border-radius: 50%;
   background-color: #222;
   
   overflow:hidden;
+  margin-bottom: 30px;
 }
 
 .chart .radio_chart{
@@ -78,53 +65,20 @@
   text-shadow: -2px -2px 5px #9a28fc, 2px 2px 5px #9a28fc, 0 0 50px #9a28fc;
 }
 @keyframes circled {
-    0%   {
-        clip-path: polygon(100% 0, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 50% 50%);
-    }
-    25%  {
-        clip-path: polygon(100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 50%);
-    }
-    50%{
-        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0% 100%, 0 100%, 50% 50%);
-    }
-    75%  {
-        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%, 0 0, 50% 50%);
-    }
-    100% {
-      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 100% 0, 50% 50%);
-    }
+  0%   {
+      clip-path: polygon(100% 0, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 50% 50%);
+  }
+  25%  {
+      clip-path: polygon(100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 50%);
+  }
+  50%{
+      clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0% 100%, 0 100%, 50% 50%);
+  }
+  75%  {
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%, 0 0, 50% 50%);
+  }
+  100% {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 100% 0, 50% 50%);
+  }
 }
-@-webkit-keyframes circled {
-    0%   {
-        -webkit-clip-path: polygon(100% 0, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 50% 50%);
-    }
-    25%  {
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 50%);
-    }
-    50%{
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0% 100%, 0 100%, 50% 50%);
-    }
-    75%  {
-        -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%, 0 0, 50% 50%);
-    }
-    100% {
-      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 100% 0, 50% 50%);
-    }
-}
-@-moz-keyframes circled {
-    0%   {
-        clip-path: polygon(100% 0, 100% 0%, 100% 0%, 100% 0%, 100% 0%, 50% 50%);
-    }
-    25%  {
-        clip-path: polygon(100% 0, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 50%);
-    }
-    50%{
-        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0% 100%, 0 100%, 50% 50%);
-    }
-    75%  {
-        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%, 0 0, 50% 50%);
-    }
-    100% {
-      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 100% 0, 50% 50%);
-    }
-}
+

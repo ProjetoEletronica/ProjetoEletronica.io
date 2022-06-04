@@ -2,6 +2,8 @@
 * This function allows you to go to an specific frame of the animation
 * Remember the frames are a percentage number, so it goes from 0 to 100
 **/
+
+
 function goTo(frame){
 	reset(); // Just reset
 	
@@ -24,7 +26,6 @@ function goTo(frame){
           clearInterval(currTimeout);
           //Pause animation
           chart.style.animationPlayState = "paused";
-          chart.style.webkitAnimationPlayState = "paused"; //if webkit
           
           return false;
         }else{
@@ -46,3 +47,4 @@ function reset(){
   chart.style.animationPlayState = "initial";
   chart.style.webkitAnimationPlayState = "initial"; //if webkit
 }
+goTo(20);
