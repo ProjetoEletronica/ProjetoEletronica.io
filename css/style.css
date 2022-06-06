@@ -424,6 +424,7 @@ main{
     font-size: calc(2.5vw + 10px);
     padding-bottom: 5px;
     border-bottom: 0.6px solid #FFF2E7;
+    width: 35vw;
 }
 #main_paragrafo{
     padding-top: 10px;
