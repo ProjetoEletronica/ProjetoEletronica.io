@@ -486,7 +486,7 @@ footer{
         font-weight: 500;
         border: 1px solid var(--borda_botão);
         background: transparent;
-        font-size: 1rem;
+        font-size: .9rem;
         border-radius: 6px;
         padding: 5px 10px 5px 10px;
         margin: 10px;
@@ -502,12 +502,12 @@ footer{
         position: absolute;
         width: 30%;
         top: 10vh;
-        right: 0px;
+        right: 3px;
         border: 1px solid var(--logo);
         background-color:var(--expo-color-base-light-gray-900);
         border-radius: 5px;
         padding-top: 20px;
-        height: 30vh;
+        height: 35vh;
         z-index: 1000;
     }
     #nav.ativo #menu{
