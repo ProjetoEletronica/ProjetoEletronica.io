@@ -444,15 +444,14 @@ main{
 }
 #participantes{
     border-top: 0.4px solid #FFF2E7;
-    padding-top: 24px;
-    font-family: 'Righteous', cursive;
+    padding-top: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: var(--padrão_texto);
     margin-bottom: 16px;
 }
 #nomes{
-    font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
     color:var(--padrão_texto);
@@ -571,7 +570,7 @@ footer{
     #p_footer{
         font-size: 1.5vh;
         padding-bottom: 0px;
-        padding-left: 15px;
+        padding-left: 0px;
     }
     
 }
