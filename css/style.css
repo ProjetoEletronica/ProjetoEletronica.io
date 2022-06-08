@@ -505,15 +505,16 @@ footer{
         border: 1px solid var(--logo);
         background-color:var(--expo-color-base-light-gray-900);
         border-radius: 5px;
-        padding-top: 20px;
         height: 35vh;
         z-index: 1000;
+        min-width: 25%;
     }
     #nav.ativo #menu{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 10px;
+        padding: 10px 0px 10px 0px;
+        min-width: 30%;
 
     }
     #coluna_principal{
