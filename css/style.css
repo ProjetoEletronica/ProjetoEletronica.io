@@ -528,7 +528,7 @@ footer{
     #main_titulo{
         color: var(--padrão_texto);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: calc(31px);
+        font-size: calc(30px);
         padding-bottom: none;
         border-bottom: none;
         width: 250px;
